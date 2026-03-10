@@ -1,0 +1,24 @@
+{
+  "name": "Linkedin  Filter Extension",
+  "description": "Linkedin  Filter Extension",
+  "version": "0.1",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "main.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}

@@ -40,6 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
       toggleButton.title = 'Filtro disattivo - Clicca per attivare';
     }
   }
-  
+
   
 });

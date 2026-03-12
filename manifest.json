@@ -1,11 +1,9 @@
 {
   "name": "Linkedin  Filter Extension",
   "description": "Linkedin  Filter Extension",
-  "version": "0.1",
+  "version": "0.6",
   "permissions": [
-    "tabs",
     "activeTab",
-    "scripting",
     "storage"
   ],
   "manifest_version": 3,
